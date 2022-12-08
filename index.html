@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Day off at work</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="wrapper">
+      <header>
+         <div class="header__container">
+            <h1 class="title">Калькулятор вихідних днів</h1>
+         </div>
+      </header>
+      <div class="main">
+         <div class="main__container">
+            <div class="main__panel main-panel">
+               <ul class="main-panel__items">
+                  <li class="main-panel__item"></li>
+                  <li class="main-panel__item"></li>
+                  <li class="main-panel__item"></li>
+                  <li class="main-panel__item"></li>
+               </ul>
+               <p id="main-panel__text" class="main-panel__text"></p>
+            </div>
+            <ul class="main__items">
+               <li class="main__item main-item">
+                  <p class="main-item__text">Перший день відпустки</p>
+                  <input type="text" id="firstOutWorkDay" placeholder="Наприклад 10">
+               </li>
+               <li class="main__item main-item">
+                  <p class="main-item__text">Перший місяць відпустки</p>
+                  <input type="text" id="firstOutWorkMounth" placeholder="Наприклад 4">
+               </li>
+               <li class="main__item main-item">
+                  <p class="main-item__text">Останній день відпустки</p>
+                  <input type="text" id="lastOutWorkDay" placeholder="Наприклад 2">
+               </li>
+               <li class="main__item main-item">
+                  <p class="main-item__text">Останній місяць відпустки</p>
+                  <input type="text" id="lastOutWorkMounth" placeholder="Наприклад 5">
+               </li>
+            </ul>
+            <button id="calcButton" class="main__button">Розрахувати</button>
+         </div>
+      </div>
+   </div>
+   <script src="Java.js"></script>
+</body>
+
+</html>
